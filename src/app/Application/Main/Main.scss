@@ -1,0 +1,18 @@
+.main {
+  >* {
+    margin-top: 1rem;
+    text-align: center;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  &__header {
+    border: 1px solid #ddd;
+  }
+
+  &__footer {
+    border: 1px solid #ddd;
+  }
+}
