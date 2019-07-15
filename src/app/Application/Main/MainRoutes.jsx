@@ -1,6 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import { routes } from '../../helpers/routes.helper';
+import { routes } from '../../shared/common/helpers/RoutesHelper';
 import Home from './Home/Home';
 import About from './About/About';
 

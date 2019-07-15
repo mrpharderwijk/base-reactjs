@@ -5,8 +5,8 @@ import { Provider } from 'react-redux';
 import { CookiesProvider } from 'react-cookie';
 import * as serviceWorker from './serviceWorker';
 
-import applicationStore from './app/Application/redux/application.store';
-import applicationHistory from './app/services/history.service';
+import applicationStore from './app/Application/redux/ApplicationStore';
+import applicationHistory from './app/shared/common/services/HistoryService';
 import Application from './app/Application/Application';
 
 import '../node_modules/bootstrap/dist/css/bootstrap.css';

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'reactstrap';
-import MainRoutes from './Main.routes';
-import Navigation from '../../components/common/Navigation/Navigation';
+import MainRoutes from './MainRoutes';
+import Navigation from '../../shared/common/components/Navigation/Navigation';
 import './Main.css';
 
 const Main = () => (

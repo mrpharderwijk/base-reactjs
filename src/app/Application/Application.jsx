@@ -1,5 +1,5 @@
 import React from 'react';
-import ApplicationRoutes from './Application.routes';
+import ApplicationRoutes from './ApplicationRoutes';
 
 const Application = () => (
   <React.Fragment>
